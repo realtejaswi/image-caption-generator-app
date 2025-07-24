@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#333333">
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Image Caption Generator"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent" 
+        android:layout_height="300dp"
+        android:layout_below="@id/titleText"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="16dp"
+        android:background="#444444"/>
+
+    <Button
+        android:id="@+id/selectButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:text="SELECT IMAGE"
+        android:backgroundTint="#666666"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/captionText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/selectButton"
+        android:text="Caption will appear here"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:textColor="#CCCCCC" />
+        
+    <TextView
+        android:id="@+id/creditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="by tejaswi"
+        android:textSize="10sp"
+        android:textColor="#888888"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="4dp"
+        android:layout_marginEnd="4dp" />
+
+</RelativeLayout>
