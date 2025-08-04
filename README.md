@@ -52,4 +52,4 @@ The project contains two main components:
 ---
 
 ## 📺 App Demonstration
-(https://github.com/yourusername/yourrepo/blob/main/assets/demo.mp4)
+[](https://github.com/yourusername/yourrepo/blob/main/assets/demo.mp4)
