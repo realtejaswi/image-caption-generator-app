@@ -15,7 +15,7 @@ The project contains two main components:
   Handles the user interface and image capture/selection on the device. Sends the image to the backend API and displays the caption received.
 
 - `AndroidManifest.xml`:  
-  Sets app permissions (camera, storage, internet access) and activity declarations.
+  Sets app permissions and activity declarations.
 
 - `res/`:  
   Contains layout files (`activity_main.xml`) and UI resources used in the app.
@@ -27,16 +27,8 @@ The project contains two main components:
 
 - `app.py`:  
   Main Flask server that receives images via HTTP POST requests.  
-  It uses a pre-trained image captioning model to predict and return a caption for the input image.
+  It uses a pre-trained image captioning model (ViT-GPT2 from Hugging Face) to predict and return a caption for the input image.
 
-- `model/`:  
-  Contains the pre-trained model (likely `.pkl` or `.h5`) and tokenizer used for generating captions.
-
-- `utils.py` (if present):  
-  Handles image preprocessing, feature extraction (CNN), and decoding predictions.
-
-- `templates/` & `static/`:  
-  Optional folders used for Flask routing or testing in browser.
 
 ---
 
@@ -56,3 +48,8 @@ The project contains two main components:
 - **Model:** CNN + RNN (e.g., InceptionV3 + LSTM)
 - **Data Processing:** NumPy, TensorFlow/Keras, PIL
 - **Communication:** REST API via HTTP POST
+
+---
+
+## 📺 App Demonstration
+(https://github.com/yourusername/yourrepo/blob/main/assets/demo.mp4)
