@@ -45,7 +45,7 @@ The project contains two main components:
 
 - **Android Frontend:** Kotlin, Android Studio
 - **Backend API:** Flask, Python 3
-- **Model:** CNN + RNN (e.g., InceptionV3 + LSTM)
+- **Model:** ViT-GPT2 from Hugging Face
 - **Data Processing:** NumPy, TensorFlow/Keras, PIL
 - **Communication:** REST API via HTTP POST
 
